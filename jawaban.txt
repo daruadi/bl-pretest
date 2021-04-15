@@ -1,0 +1,11 @@
+Basic Programming
+1.Integer, float, double.
+2.Char, string
+3.113
+4.2
+5.3566GoldenStreetMiami
+
+Flaky Test
+1.Flaky test merupakan test case yang menghasilkan success atau error berubah-ubah dalam beberapa kali waktu pengujian namun code yang diuji tidak mengalami perubahan.
+2.Untuk pengujian komponen menggunakan ajax sebaiknya dilakukan pengecekan komponen yang akan dicek sambil menunggu tiap beberapa detik sehingga komponen tersebut mengalami perubahan. Setelah komponen berubah dilanjutkan untuk eksekusi perintah berikutnya.
+3.Jika pengujian membutuhkan Captcha maka tergantung pada kondisi lingkungan pengujiannya. Apabila pengujian ada pada lingkungan yang bisa dikendalikan (local atau staging server) kita bisa menonaktifkan proteksi captcha tersebut. Tapi jika pengujian dalam lingkungan Production, pengujian bisa menggunakan 3rd party tools seperti text recognition (jika captcha berbentuk text challenge), atau membuat hidden hook/url yang dapat mematikan proteksi captcha, atau membuat whitelist IP dari device automation test.
